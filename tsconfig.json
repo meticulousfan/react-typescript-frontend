@@ -1,0 +1,28 @@
+{
+    "extends": "./tsconfig.paths.json",
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "jsx": "preserve",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "sourceMap": true,
+        "strict": true,
+        "strictFunctionTypes": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "target": "ES5",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "noEmit": true,
+        "isolatedModules": true
+    },
+    "exclude": ["dist", "node_modules", "build"],
+    "include": ["src"]
+}
